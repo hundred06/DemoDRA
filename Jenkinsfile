@@ -10,7 +10,7 @@ pipeline {
     agent any
     environment {
         // You need to specify 4 required environment variables first, they are going to be used for the following IBM Cloud DevOps steps
-        IBM_CLOUD_DEVOPS_API_KEY = credentials('VfRCFqyyb3JBDQtc3AUEiyvDaN4zpiNqGITGbdvuRfYq')
+        IBM_CLOUD_DEVOPS_API_KEY = credentials('nH3rS0bTvMT1a6oZOoPNWiHCsD_tne3MMkeyfwKQV1pl')
         IBM_CLOUD_DEVOPS_ORG = 'ypjinsh@cn.ibm.com'
         IBM_CLOUD_DEVOPS_APP_NAME = 'DevOps-Insight-Sample-App'
         IBM_CLOUD_DEVOPS_TOOLCHAIN_ID = '0037a4da-d937-4b3d-9bab-92d1060ce44d'
